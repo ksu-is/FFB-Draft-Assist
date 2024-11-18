@@ -1,12 +1,12 @@
 Fantasy Football Draft Assist Project Roadmap
 - [x] Information gathering for key information (Player name, team, Average draft position, and projected points per week.)
-- [ ] Sort and filter options by team, position, etc.
+- [X] Sort and filter options by team, position, etc.
 - [x] Decide data sources(Sleeper API or local csv)
 - [ ] Define structure for player objects
-- [ ] Player search function
-- [ ] Player information display
-- [ ] Sorting and filtering
-- [ ] User interface
+- [X] Player search function
+- [X] Player information display
+- [X] Sorting and filtering
+- [X] User interface
 - [ ] Testing and debugging
 - [ ] Final documentation
 - [ ] User guide
