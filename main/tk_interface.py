@@ -125,17 +125,27 @@ class NFLPlayersApp:
     def display_player_details(self, player_data):
         """Display detailed player information."""
         full_name = player_data.get('full_name', 'N/A')
+        status = player_data.get('status', 'N/A')
         team = player_data.get('team', 'N/A')
+        number = player_data.get('number', 'N/A')
+        height = player_data.get('height', 'N/A')
+        weight = player_data.get('weight', 'N/A')
         position = player_data.get('position', 'N/A')
         years_exp = player_data.get('years_exp', 'N/A')
         birth_date = player_data.get('birth_date', 'N/A')
+        college = player_data.get('college', 'N/A')
+
 
         details_text = f"Full Name: {full_name}\n"
+        details_text += f"Status: {status}\n"      
         details_text += f"Team: {team}\n"
+        details_text += f"Number: {number}\n"
+        details_text += f"Height: {height}\n"
+        details_text += f"Weight: {weight}\n"
         details_text += f"Position: {position}\n"
         details_text += f"Years of Experience: {years_exp}\n"
-        details_text += f"Birth Date: {birth_date}"
-
+        details_text += f"Birth Date: {birth_date}\n"
+        details_text += f"College: {college}\n"
         self.details_label.config(text=details_text)
 
     def on_player_select(self, event):

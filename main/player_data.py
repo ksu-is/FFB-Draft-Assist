@@ -8,7 +8,7 @@ CACHE_FILE = 'players_data.json'
 CACHE_DATE_FILE = 'cache_date.txt'
 
 # Positions to remove
-POSITIONS_TO_REMOVE = ["LB", "CB", "SS", "FS", "DT", "DE, C, OG, OT, OL, ILB, OLB"]
+POSITIONS_TO_REMOVE = ["LB", "CB", "SS", "FS", "DT", "DE", "C", "OG", "OT", "OL", "ILB", "OLB", "LS", "NT", "DB", "None", "S", "DL"]
 
 def fetch_nfl_players():
     url = 'https://api.sleeper.app/v1/players/nfl'
